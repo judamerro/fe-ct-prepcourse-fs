@@ -3,13 +3,7 @@ function esNumeroEntero(numero) {
   // Verifica si este es un número entero o no.
   // Returna true si lo es, de lo contrario, retorna false.
   // Tu código:
-
-  if (numero  % 1 == 0){
-    console.log(true);
-
-  }else{
-    console.log(false);
-  }
+  return Number.isInteger(numero);
 }
 
 module.exports = esNumeroEntero;
